@@ -1,8 +1,8 @@
 const db = require('../models/index')
 
-let index = async (req, res) => {
+const index = async (req, res) => {
     try {
-        let dataUsers = await db.User.findAll()
+        const dataUsers = await db.User.findAll()
         return res.render('layouts/main', {
             dataUsers,
         })
@@ -12,6 +12,7 @@ let index = async (req, res) => {
     }
 }
 
+
 module.exports = {
-    index,
+    index
 }

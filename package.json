@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/Hieu2501/nodejsbasic#readme",
   "dependencies": {
+    "app-root-path": "^3.1.0",
     "body-parser": "^1.20.1",
     "dotenv": "^16.0.3",
     "ejs": "^3.1.8",
@@ -27,6 +28,7 @@
     "express-generator": "^4.16.1",
     "method-override": "^3.0.0",
     "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
     "mysql2": "^2.3.3",
     "sass": "^1.56.0",
     "sequelize": "^6.25.4"
